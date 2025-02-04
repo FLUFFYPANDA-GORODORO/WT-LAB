@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plain Light';
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+.page1{
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+    border: 1px solid black;
+}
+
+.navbar{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw;
+    color: black;
+    
+}
+
+.navleft{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.navryt{
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+}
+
+.container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    
+}
+
+.conleft{
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    text-align: center;
+}
+
+.conryt{
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    text-align: center;
+    border-left: 1px solid black;
+}
+
+.htags{
+    margin-top: 10vh;
+   
+}
+
+.para{
+    margin-top: 10vh;
+}
+
+.tablee{
+    text-align: center;
+    margin: auto;
+    margin-top: 20vh;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+.tablee,th,td{
+    border: 1px solid black;
+}
+
+.new{
+    color: orange;
+   
+}
+
+.new1{
+    color: blue;
+}
+
+.page2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: beige;
+    border: 1px solid black;
+}
+
+.p2left{
+    height: 100%;
+    width: 50%;
+    /* background-color: aquamarine; */
+    /* padding-left: 30px; */
+    /* text-align: center; */
+}
+
+.p2ryt{
+    height: 100%;
+    width: 50%;
+    background-color: beige;
+    border-left: 1px solid black;
+}
+.p2{
+    margin-left: 40vh;
+    margin-top: 20vh;
+}
+
+.main{
+    text-align: center;
+}
+
+.img{
+    height: 95vh;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1737111869094-80ed40daca91?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+.page3{
+    height: 100vh;
+    width: 100%;
+    background-color: beige;
+}
+iframe{
+    padding: 10vh;
+    height: 100%;
+    width: 100%;
+}
