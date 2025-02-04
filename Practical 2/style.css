@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    font-family: 'serif';
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+
+.page1{
+    width: 100%;
+    height: 100vh;
+    
+    
+}
+
+.navbar{
+    width: 90%;
+    height: 10vh;
+    padding: 2vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 2px;
+    margin: auto;
+    
+    
+}
+
+.navpart2{
+    width: 50%;
+    padding: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: orange;
+}
+
+.oo{
+    color: orange;
+}
+
+.hero{
+    width: 90%;
+    height: 90vh;
+    background-color: antiquewhite;
+    margin: auto;
+    display: flex;
+    
+}
+
+.page1left{
+    width: 50%;
+    height: 100%;
+
+    padding: 12vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page1left h1{
+    font-size: 2.5rem;
+    margin: 2rem 0;
+}
+
+.page1left p{
+    font-size: 0.8rem;
+    margin: 1rem 0;
+    padding: 1vh;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.page1right{
+    width: 50%;
+    height: 100%;
+    padding: 5vh;
+}
+
+.btn1{
+    background-color: orange;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+.btn2{
+    background-color: greenyellow;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+.page1right img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.page2{
+    height: 100%;
+    width: 100%;
+
+}
+
+.p2heading{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+
+.items{
+    height: 12vh;
+    width: 100%;
+    padding: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.item{
+
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    background-color: orange;
+
+}
+
+.cards{
+    width: 100%;
+    height: 78vh;
+    padding: 1vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 20%;
+    height: 33vh;
+    margin: 1rem;
+    padding: 2.5vh;
+    background-color: #1a1a1a;
+    color: aliceblue;
+    border-radius: 20px;
+}
+
+.cardimg{
+    width: 100%;
+    height: 75%;
+    
+}
+
+.cardimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    object-position: center;
+}
+
+.cardtext{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
